@@ -1,0 +1,55 @@
+html {
+	font-family: filson-pro;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-top: 1%;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+p {
+	font-weight: normal;
+	font-size: 20px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+
+}
+
+#signup {
+	width: 250px;
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: auto;
+	display: block;
+	font-size: 30px;
+	border: solid 6px black;
+	transition: .3s;
+
+}
+
+#signup:hover {
+	background-color: black;
+	color: white;
+}
+
+#internet {
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	letter-spacing: 20px;
+}
