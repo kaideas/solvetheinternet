@@ -23,7 +23,7 @@ p {
 	font-size: 16px;
 	width: 450px;
 	text-align: left;
-	padding: 10px;
+	padding: 5px 10px 5px 10px;
 	color: white;
 }
 
@@ -41,7 +41,7 @@ a {
 	background: linear-gradient(to bottom right, #7318ff, purple);
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px 20px 10px 20px;
+	padding: 5px 20px 5px 20px;
 	width: 480px;
 }
 
