@@ -233,9 +233,13 @@ input {
 		width: 270px;
 	}
 
-	}
 
-@media (max-height: 380px) {
+	.response {
+		width: 270px;
+	}
+}
+
+@media (max-height: 500px) {
 
 html {
 	overflow-x: scroll;
