@@ -239,7 +239,7 @@ input {
 	}
 }
 
-@media (max-height: 500px) {
+@media (max-height: 715px) {
 
 html {
 	overflow-x: scroll;
