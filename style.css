@@ -173,12 +173,9 @@ input {
 
 	#mc-embedded-subscribe {
 		font-size: 20px;
-		padding: 10px 16px 10px 16px;
-	}
-
-	#mc-embedded-subscribe {
-		margin-top: 10px;
-
+		padding: 8px 12px 8px 12px;
+		margin-top: 14px;
+		width: auto;
 	}
 
 	p {
