@@ -38,7 +38,7 @@ a {
 /*	margin-bottom: 10%;
 	margin-top: 10%;*/
 	margin-top: 50px;
-	background-color: purple;
+	background: linear-gradient(to bottom right, #7318ff, purple);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px 20px 10px 20px;
@@ -83,15 +83,15 @@ input {
 	font-size: 30px;
 	border: solid 6px white;
 	transition: .3s;
-	background-color: black;
+	background: black;
 	margin-top: 40px;
 	color: white;
 }
 
 
 #mc-embedded-subscribe:hover {
-	background-color: white;
-	color: black;
+	background: linear-gradient(to bottom right, #7318ff, purple);
+	transition: .3s;
 }
 
 #mc_embed_signup {
