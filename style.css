@@ -63,11 +63,6 @@ ol {
 	font-weight: 600;
 }
 
-#mc-field-group {
-	text-align: left;
-	margin: auto;
-	width: 50%;
-}
 
 input {
     border-radius: 0;
@@ -103,6 +98,8 @@ input {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	width: 500px;
+	margin: auto;
 }
 
 .email {
