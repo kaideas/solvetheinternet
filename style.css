@@ -1,55 +1,168 @@
 html {
 	font-family: filson-pro;
 	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 h1 {
 	font-weight: 900;
 	text-transform: uppercase;
-	padding-top: 1%;
 	font-size: 30px;
 	letter-spacing: 10px;
 }
 
+
 p {
 	font-weight: normal;
-	font-size: 20px;
-	width: 50%;
+	font-size: 16px;
+	width: 450px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 70px;
-	margin-top: 70px;
+	text-align: left;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: black;
 	font-weight: 900;
 
 }
 
-#signup {
-	width: 250px;
-	padding: 20px;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	margin: auto;
-	display: block;
-	font-size: 30px;
-	border: solid 6px black;
-	transition: .3s;
-
-}
-
-#signup:hover {
-	background-color: black;
-	color: white;
+#text {
+/*	margin-bottom: 10%;
+	margin-top: 10%;*/
+	margin-top: 60px;
 }
 
 #internet {
-	font-size: 50px;
+	font-size: 46px;
 	color: white;
 	background-color: black;
 	padding: 10px;
 	letter-spacing: 20px;
 }
+
+#mc_embed_signup {
+	margin: auto;
+	padding: 20px;
+}
+
+ol {
+	width: 600px;
+	margin: auto;
+	text-align: left;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	font-weight: 600;
+}
+
+#mc-field-group {
+	text-align: left;
+	margin: auto;
+}
+
+input {
+	
+}
+
+#mc-embedded-subscribe {
+	width: 280px;
+	padding: 20px 30px 20px 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: auto;
+	display: block;
+	font-size: 30px;
+	border: solid 6px white;
+	transition: .3s;
+	background-color: black;
+	margin-top: 40px;
+	color: white;
+}
+
+
+#mc-embedded-subscribe:hover {
+	background-color: white;
+	color: black;
+}
+
+#mc_embed_signup {
+	padding: 20px;
+	background-color: black;
+}
+
+.mc-field-group {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.email {
+	height: 30px;
+	width: 500px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+
+#bottom {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+
+@media (max-width: 600px) {
+
+	body{
+		width: 100%;
+	}
+
+	ol {
+		width: 90%;
+		margin: auto;
+		text-align: left;
+		font-size: 16px;
+		padding-left: 7%;
+		font-weight: 600;
+	}
+
+	p {
+		font-weight: normal;
+		font-size: 16px;
+		width: 90%;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	#internet {
+		font-size: 33px;
+	}
+
+	.email {
+		width: 94%;
+	}
+
+	#mc-embedded-subscribe {
+		font-size: 25px;
+		padding: 15px 22px 15px 22px;
+	}
+
+	#text {
+		margin-top: 5%;
+	}
+
+}
+
