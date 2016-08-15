@@ -237,6 +237,11 @@ input {
 	.response {
 		width: 270px;
 	}
+
+	#text {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
 
 @media (max-height: 660px) {
