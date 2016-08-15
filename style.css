@@ -119,9 +119,10 @@ input {
 	width: 100%;
 }
 
-#mce-error-response {
+#mce_inline_error {
 	color: red;
 	background-color: none;
+	width: 80%;
 }
 
 #mce-success-response {
