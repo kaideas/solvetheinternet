@@ -69,7 +69,7 @@ ol {
 }
 
 input {
-	
+    border-radius: 0;
 }
 
 #mc-embedded-subscribe {
