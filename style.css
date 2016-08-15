@@ -135,12 +135,15 @@ input {
 }
 
 #mce-success-response {
-	color: green;
+	color: #00d26b;
 	background-color: none;
+	margin: auto;
 }
 
 .response {
-	width: 88%;
+	width: 500px;
+	padding-top: 4px;
+	margin: auto;
 }
 
 
