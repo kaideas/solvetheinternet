@@ -205,3 +205,24 @@ input {
 
 	}
 
+@media (max-height: 380px) {
+
+html {
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+body {
+	overflow-x: scroll;
+	overflow-y: scroll;
+		height: 600px;
+}
+
+#bottom {
+	bottom: 0;
+	position: relative;
+	width: 100%;
+}
+
+}
+
