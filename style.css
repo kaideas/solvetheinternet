@@ -66,6 +66,7 @@ ol {
 	padding-bottom: 20px;
 	padding-left: 50px;
 	font-weight: 200;
+	margin-top: 10px;
 }
 
 
@@ -157,14 +158,12 @@ input {
 
 	ol {
 		width: 90%;
-		margin: auto;
 		text-align: left;
 		font-size: 16px;
 		padding-left: 7%;
 	}
 
 	p {
-		font-weight: normal;
 		font-size: 16px;
 		width: 87%;
 		margin: 0;
@@ -240,7 +239,7 @@ input {
 	}
 }
 
-@media (max-height: 715px) {
+@media (max-height: 680px) {
 
 html {
 	overflow-x: scroll;
@@ -250,7 +249,7 @@ html {
 body {
 	overflow-x: scroll;
 	overflow-y: scroll;
-		height: 600px;
+		height: 100%;
 }
 
 #bottom {
