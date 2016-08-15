@@ -119,6 +119,21 @@ input {
 	width: 100%;
 }
 
+#mce-error-response {
+	color: red;
+	background-color: none;
+}
+
+#mce-success-response {
+	color: green;
+	background-color: none;
+}
+
+.response {
+	width: 88%;
+}
+
+
 
 @media (max-width: 600px) {
 
