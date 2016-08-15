@@ -139,8 +139,9 @@ input {
 		font-weight: normal;
 		font-size: 16px;
 		width: 90%;
-		padding-left: 4%;
-		padding-right: 4%;
+		padding-left: 6%;
+		padding-right: 6%;
+		margin: 0;
 	}
 
 	h1 {
@@ -151,18 +152,59 @@ input {
 		font-size: 33px;
 	}
 
-	.email {
-		width: 94%;
-	}
-
 	#mc-embedded-subscribe {
 		font-size: 25px;
 		padding: 15px 22px 15px 22px;
+		border: solid 3px white;
+
 	}
 
 	#text {
 		margin-top: 5%;
 	}
 
+	.email {
+		width: 94%;
+	}
+
 }
+
+@media (max-width: 380px) {
+
+	#mc-embedded-subscribe {
+		font-size: 20px;
+		padding: 10px 16px 10px 16px;
+	}
+
+	#mc-embedded-subscribe {
+		margin-top: 10px;
+
+	}
+
+	p {
+		font-size: 13px;
+		width: 75%;
+		margin: auto;
+		margin-bottom: 3%;
+	}
+
+	ol {
+		line-height: 18px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	#internet {
+		font-size: 25px;
+		padding-left: 10px;
+		margin-right: -20px;
+	}
+
+	.email {
+		width: 274px;
+	}
+
+	}
 
