@@ -2,7 +2,7 @@ html {
 	text-align: center;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	font-family: "ff-basic-gothic-web-pro";
+	font-family: "ff-basic-gothic-web-pro", avenir;
 }
 
 body {
@@ -28,6 +28,7 @@ p {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 1.2em;
 }
 
 a {
@@ -52,6 +53,7 @@ a {
 	bottom: 0px;
 	background: black;
 	color: white;
+	font-weight: 600;
 }
 
 #internet {
@@ -77,6 +79,7 @@ ol {
 	padding-left: 50px;
 	font-weight: 200;
 	margin-top: 10px;
+	line-height: 22px;
 }
 
 
