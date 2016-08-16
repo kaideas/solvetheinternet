@@ -84,8 +84,8 @@ input {
 }
 
 #mc-embedded-subscribe {
-	width: 260px;
-	padding: 10px 20px 10px 20px;
+	width: 240px;
+	padding: 12px 18px 12px 20px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: auto;
@@ -200,20 +200,31 @@ input {
 
 @media (max-width: 380px) {
 
+	#clue {
+		margin-top: 6vh;
+	}
+
 	#mc-embedded-subscribe {
-		font-size: 20px;
+		font-size: 16px;
 		padding: 10px 16px 10px 16px;
 		margin-top: 14px;
 		width: auto;
 	}
 
+	#mc_embed_signup {
+		padding-top: 10px;
+	}
+
+	.mc-field-group {
+		font-size: 12px;
+	}
+
 	p {
 		width: 75%;
-		margin: auto;
 	}
 
 	ol {
-		line-height: 18px;
+		font-size: 16px;
 	}
 
 	h1 {
