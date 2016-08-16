@@ -126,6 +126,7 @@ input {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	border: 2px solid black;
+	padding-left: 6px;
 }
 
 .email:focus {
@@ -188,7 +189,7 @@ input {
 	}
 
 	.email {
-		width: 94%;
+		width: 320px;
 	}
 
 	.mc-field-group {
