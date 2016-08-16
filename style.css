@@ -2,13 +2,12 @@ html {
 	text-align: center;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	font-family: Avenir;
+	font-family: "ff-basic-gothic-web-pro";
 }
 
 body {
 	overflow-x: hidden;
 	overflow-y: hidden;
-	font-family: Avenir;
 }
 
 h1 {
@@ -29,7 +28,6 @@ p {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: Avenir;
 }
 
 a {
@@ -62,6 +60,7 @@ a {
 	background-color: black;
 	padding: 10px;
 	letter-spacing: 20px;
+	margin-top: 4px;
 }
 
 #mc_embed_signup {
