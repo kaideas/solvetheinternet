@@ -23,7 +23,7 @@ h2 {
 	font-family: filson-pro;
 	font-weight: 500;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: 2px;
 	margin: auto;
 	padding: 0px 10px 0px 10px;
@@ -47,6 +47,10 @@ a {
 	font-weight: 900;
 }
 
+#sixty-nine {
+	font-size: 16px;
+	font-weight: 600;
+}
 
 #clue {
 	margin-top: 13vh;
@@ -180,6 +184,10 @@ input {
 		padding-left: 7%;
 	}
 
+	#sixty-nine {
+		font-size: 14px;
+	}
+
 	h1 {
 		font-size: 25px;
 	}
@@ -211,6 +219,7 @@ input {
 		width: 320px;
 		font-size: 12px;
 	}
+
 }
 
 
@@ -241,6 +250,10 @@ input {
 
 	ol {
 		font-size: 16px;
+	}
+
+	#sixty-nine {
+	font-size: 13px;
 	}
 
 	h1 {
