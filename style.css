@@ -14,21 +14,31 @@ h1 {
 	font-family: filson-pro;
 	font-weight: 900;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 25px;
 	letter-spacing: 10px;
+	margin-top: 2vh;
+}
+
+h2 {
+	font-family: filson-pro;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin: auto;
+	padding: 0px 10px 0px 10px;
 }
 
 
 p {
 	font-weight: lighter;
-	font-size: 12px;
-	width: 320px;
+	font-size: 15px;
 	text-align: left;
-	padding: 5px;
-	color: white;
+	padding: 0px 5px 0px 5px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.2em;
+	width: 498px;
 }
 
 a {
@@ -39,7 +49,7 @@ a {
 
 
 #clue {
-	margin-top: 10vh;
+	margin-top: 13vh;
 }
 
 #text {
@@ -51,16 +61,16 @@ a {
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
-	background: black;
-	color: white;
+	background: white;
+	color: black;
 }
 
 #internet {
-	font-size: 46px;
+	font-size: 36px;
 	color: white;
 	background-color: black;
-	padding: 10px;
-	letter-spacing: 20px;
+	padding: 7px 0px 7px 25px;
+	letter-spacing: 25px;
 	margin-top: 4px;
 }
 
@@ -74,7 +84,7 @@ ol {
 	margin: auto;
 	text-align: left;
 	font-size: 21px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-left: 50px;
 	font-weight: 500;
 	margin-top: 10px;
@@ -88,7 +98,7 @@ input {
 
 #mc-embedded-subscribe {
 	width: 240px;
-	padding: 12px 18px 12px 20px;
+	padding: 12px 10px 12px 20px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: auto;
@@ -139,7 +149,7 @@ input {
 #mce_inline_error {
 	color: red;
 	background-color: none;
-	width: 80%;
+	width: 500px;
 }
 
 #mce-success-response {
@@ -178,11 +188,6 @@ input {
 		font-size: 33px;
 	}
 
-	#mc-embedded-subscribe {
-		font-size: 25px;
-		padding: 15px 22px 15px 22px;
-	}
-
 	#text {
 		margin-top: 12%;
 		width: 100%;
@@ -196,12 +201,18 @@ input {
 		width: inherit;
 	}
 
+}
+
+@media (max-width: 550px) {
+
 	p {
 		padding-left: 30px;
 		margin-left: 0;
+		width: 320px;
+		font-size: 12px;
 	}
-
 }
+
 
 @media (max-width: 380px) {
 
@@ -258,7 +269,7 @@ input {
 	}
 }
 
-@media (max-height: 660px) {
+@media (max-height: 670px) {
 
 html {
 	overflow-x: scroll;
@@ -269,6 +280,10 @@ body {
 	overflow-x: scroll;
 	overflow-y: scroll;
 		height: 100%;
+}
+
+#text {
+	position: relative;
 }
 
 }
